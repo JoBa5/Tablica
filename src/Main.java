@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int [] tablica = {1,2,3,4,5,6};
-        for (int liczba:tablica) {
-            if(liczba > 3 && liczba < 5)
-            System.out.println(liczba);
-            
-        }
+//        int [] tablica = {1,2,3,4,5,6};
+//        for (int liczba:tablica) {
+//            if(liczba > 3 && liczba < 5)
+//            System.out.println(liczba);
+//
+//        }
 //        for(int i = 0; i < tablica.length; i++){
 //            if( tablica [i] < 3)
 //                System.out.println("True");
@@ -15,6 +15,21 @@ public class Main {
 //        String [] cars ={"audi", "bmw", "vw", "volvo"};
 //        for(String car:cars){
 //            System.out.println(car);
+//    };
+
+    int day = 3;
+    switch (day){
+        case 1:
+            System.out.println("Monday");
+            break;
+        case 2:
+            System.out.println("Tuesday");
+            break;
+        default:
+            System.out.println("Weekend");
+
+
         }
+    }
     }
 
