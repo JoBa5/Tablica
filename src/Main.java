@@ -43,16 +43,16 @@ public class Main {
 //        }
 //        while (j<5);
 //    }
-
-        for (int i = 0; i < 10; i++) {
-            if(i == 5){
-                int x;
-                x = i + 5;
-                System.out.println(x);
-                continue;
-            }
-            System.out.println(i);
-        }
+//
+//        for (int i = 0; i < 10; i++) {
+//            if(i == 5){
+//                int x;
+//                x = i + 5;
+//                System.out.println(x);
+//                continue;
+//            }
+//            System.out.println(i);
+//        }
     }
     }
 
